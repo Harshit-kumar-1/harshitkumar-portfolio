@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harshit Kumar | Resume</title>
+    <meta name="description" content="Resume of Harshit Kumar, frontend and WordPress developer." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://harshitkumar.tech/resume/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    />
+    <style>
+      :root {
+        --ink: #101311;
+        --muted: #5c605a;
+        --line: rgba(16, 19, 17, 0.16);
+        --accent: #5f7a12;
+        --lime: #c8e56a;
+      }
+      * { box-sizing: border-box; }
+      html { color-scheme: light; }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: #ebe8e0;
+        font: 15px/1.55 "Manrope", "Segoe UI", sans-serif;
+      }
+      a { color: inherit; }
+      .bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 12px 20px;
+        background: #101311;
+        color: #f8f7f2;
+        font: 12px "DM Mono", monospace;
+        text-transform: uppercase;
+      }
+      .bar a, .bar button {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+        color: inherit;
+        font: inherit;
+        text-decoration: none;
+        background: transparent;
+        border: 1px solid rgba(248, 247, 242, 0.35);
+        cursor: pointer;
+      }
+      .bar .primary {
+        color: #101311;
+        background: var(--lime);
+        border-color: var(--lime);
+      }
+      .bar a:hover, .bar button:hover { border-color: var(--lime); }
+      .sheet {
+        max-width: 860px;
+        margin: 32px auto;
+        padding: 56px 60px;
+        background: #fdfcf8;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+      }
+      h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.05em; line-height: 1; }
+      .role { margin: 6px 0 0; color: var(--accent); font-weight: 700; }
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 18px;
+        margin: 14px 0 0;
+        padding: 0;
+        list-style: none;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      h2 {
+        margin: 30px 0 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid var(--line);
+        font: 500 11px "DM Mono", monospace;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      p { margin: 0 0 8px; }
+      .row { display: flex; justify-content: space-between; gap: 16px; }
+      .row strong { font-size: 15px; }
+      .when { color: var(--muted); font-size: 13px; white-space: nowrap; }
+      ul { margin: 6px 0 14px; padding-left: 18px; }
+      li { margin-bottom: 4px; }
+      .skills p span { font-weight: 700; }
+      @media (max-width: 640px) {
+        .sheet { margin: 0; padding: 32px 22px; box-shadow: none; }
+        .row { display: block; }
+        .bar { padding: 10px 12px; }
+        .bar a, .bar button { padding: 9px 10px; }
+      }
+      @media print {
+        @page { size: A4; margin: 14mm; }
+        body { background: #fff; font-size: 12px; }
+        .bar { display: none; }
+        .sheet { margin: 0; padding: 0; box-shadow: none; max-width: none; background: #fff; }
+        h2 { margin-top: 18px; }
+        a { text-decoration: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bar">
+      <a href="/"><span aria-hidden="true">←</span> Back to portfolio</a>
+      <button class="primary" type="button" id="print-btn">Download PDF</button>
+    </div>
+
+    <main class="sheet">
+      <h1>Harshit Kumar</h1>
+      <p class="role">Frontend Developer</p>
+      <ul class="contact">
+        <li>Open to relocation and remote work</li>
+        <li><a href="mailto:Harshit.kumar.web@gmail.com">Harshit.kumar.web@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/harshit-kumar-me">LinkedIn</a></li>
+        <li><a href="https://github.com/Harshit-kumar-1/">GitHub</a></li>
+      </ul>
+
+      <h2>Professional summary</h2>
+      <p>
+        Frontend developer with 2+ years of experience building responsive,
+        high-performance websites and web applications. Delivered 7+ live
+        production websites, developed custom WordPress plugins, and managed
+        projects from design to deployment. Skilled in React, Next.js,
+        JavaScript and modern CSS, and moving toward component-based frontend
+        development with React and Next.js.
+      </p>
+
+      <h2>Technical skills</h2>
+      <div class="skills">
+        <p><span>Frontend:</span> HTML5, CSS3, JavaScript (ES6+), React, Next.js, Tailwind CSS, Bootstrap</p>
+        <p><span>CMS &amp; backend:</span> WordPress (themes, plugins, custom development), PHP, Core Java, SQL</p>
+        <p><span>Tools &amp; platforms:</span> Git, GitHub, Vercel, VS Code, responsive design, cross-browser testing</p>
+        <p><span>Languages:</span> English (proficient), Hindi (native), Gujarati (conversational)</p>
+      </div>
+
+      <h2>Work experience</h2>
+      <div class="row">
+        <strong>Frontend Developer, Strivedge Technolabs</strong>
+        <span class="when">July 2024 – Present · India</span>
+      </div>
+      <ul>
+        <li>Designed and developed 7+ production-ready WordPress websites for clients across beauty, energy and corporate sectors, fully responsive and SEO-optimised.</li>
+        <li>Built a custom WordPress booking plugin for two client websites, letting users schedule and manage treatment appointments online and reducing manual booking effort.</li>
+        <li>Translated Figma designs into pixel-accurate responsive websites, working closely with designers on UI/UX requirements.</li>
+        <li>Maintained live websites with ongoing design changes and feature enhancements.</li>
+        <li>Selected professional work includes booking platforms, SaaS marketing sites, corporate websites, and media portfolios.</li>
+      </ul>
+
+      <h2>Projects</h2>
+      <div class="row">
+        <strong>EcoVian Energy, corporate website</strong>
+        <span class="when">Freelance · Live</span>
+      </div>
+      <ul>
+        <li>Designed and built a complete corporate website for an energy company, with multi-page layout, responsive design and brand-aligned visual identity.</li>
+        <li>Implemented clean navigation, an SEO-friendly page structure and cross-device compatibility.</li>
+      </ul>
+      <div class="row">
+        <strong>Shambhavi Solar, landing page</strong>
+        <span class="when">Freelance · Live</span>
+      </div>
+      <ul>
+        <li>Collaborated on UI/UX refinements and built the frontend for a solar energy landing page.</li>
+        <li>Deployed on Vercel for fast load times across devices.</li>
+      </ul>
+
+      <h2>Education</h2>
+      <div class="row">
+        <strong>Bachelor of Computer Applications (BCA), Mandsaur University</strong>
+        <span class="when">Graduated May 2024</span>
+      </div>
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>Programming in Java, NPTEL (IIT Kharagpur)</li>
+        <li>JavaScript Essentials I, Cisco Networking Academy</li>
+        <li>Full Stack Web Developer, Udemy</li>
+        <li>DBMS, Oracle Academy</li>
+      </ul>
+    </main>
+    <script>
+      document
+        .getElementById("print-btn")
+        .addEventListener("click", () => window.print());
+    </script>
+  </body>
+</html>
